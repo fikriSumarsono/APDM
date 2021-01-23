@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
         User::truncate();
         User::create([
             'name'=>'Muhammad Agreindra H. S.Kom., M.T',
-            'level'=>'dosen dan lppm',
+            'level'=>'Dosen dan LPPM',
             'username' => '0420108603',
             'email'=>'agreindra@stmik-sumedang.ac.id',
             'password'=>bcrypt('0420108603'),
