@@ -21,7 +21,7 @@ class CreateHaksTable extends Migration
             $table->string('nomor_hki',50)->unique();
             $table->string('nomor_pendaftaran',50)->unique();
             $table->char('nidn',10);
-            $table->varchar('tahun',5);
+            $table->char('tahun',5);
             $table->string('url')->nullable();
             $table->string('upload')->nullable();
             $table->timestamps();
